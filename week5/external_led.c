@@ -1,0 +1,25 @@
+#include "pico/stdlib.h"
+
+#define LED_PIN 15
+
+int main() {
+  gpio_init(LED_PIN);
+  gpio_set_dir(LED_PIN, GPIO_OUT);
+
+  while (true) {
+    //快闪3次
+    for(int i = 0; i < 3; i++) {
+      gpio_put(LED_PIN, 1);
+      sleep_ms(100);
+      gpio_put(LED_PIN, 0);
+      sleep_ms(100);
+    }
+    //慢闪3次
+    for(int i = 0; i < 3; i++) {
+      gpio_put(LED_PIN, 1);
+      sleep_ms(500);
+      gpio_put(LED_PIN, 0);
+      sleep_ms(500);
+    }
+  }
+}

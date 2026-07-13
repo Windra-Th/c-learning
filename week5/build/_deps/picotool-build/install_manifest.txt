@@ -1,7 +1,0 @@
-/home/windra/projects/week5/build/_deps/picotool/picotool
-/home/windra/projects/week5/build/_deps/picotool/picotoolTargets.cmake
-/home/windra/projects/week5/build/_deps/picotool/picotoolTargets-release.cmake
-/home/windra/projects/week5/build/_deps/picotool/picotoolConfig.cmake
-/home/windra/projects/week5/build/_deps/picotool/picotoolConfigVersion.cmake
-/home/windra/projects/week5/build/_deps/picotool/enc_bootloader.elf
-/home/windra/projects/week5/build/_deps/picotool/enc_bootloader_mbedtls.elf

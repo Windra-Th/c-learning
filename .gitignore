@@ -1,0 +1,38 @@
+  # 编译产物
+  *.o
+  *.out
+  *.exe
+  !*.c
+
+  # 无后缀的可执行文件（C 编译出来的）
+  week1/hello
+  week1/hello2
+  week2/calculator
+  week2/calculator2
+  week2/temperature
+  week2/types
+  week3/bounds
+  week3/bubble
+  week3/char_vs_ptr
+  week3/dynamic_scores
+  week3/inversion
+  week3/palindrome
+  week3/pointer_intro
+  week3/ptr_array
+  week3/scores
+  week3/scores2d
+  week4/buggy
+  week4/delete_value
+  week4/dynamic_scores
+  week4/linked_list
+  week4/struct_array
+  week4/struct_intro
+  week4/struct_ptr
+  week4/struct_safe
+  week4/update_name
+
+  # CMake build 目录
+  build/
+
+  # 临时文件
+  *.save
